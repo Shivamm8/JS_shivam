@@ -21,3 +21,9 @@ console.log(typeof username)
 console.log(typeof myfunction)
 console.log(typeof id)
 console.log(typeof myobj)
+//stack means it gives you copy
+let myname="shivam"
+let secondname=myname
+secondname="shyam"
+console.log(myname)
+console.log(secondname)
