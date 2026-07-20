@@ -1,0 +1,6 @@
+let createMydate = new Date(2023,0,4,4,7)
+console.log(createMydate.toLocaleString())
+let Mydate=new Date ()
+console.log(Mydate)
+console.log(Mydate.getMonth())
+console.log(Mydate.getDate())
